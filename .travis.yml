@@ -1,0 +1,15 @@
+language: python
+
+python:
+ - 3.6
+ - 3.5
+ - 3.7
+
+before_install:
+ - wget http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+
+
+script:
+ - python3 HW_8.py --help
+ - python3 HW_8.py wine.data
+
