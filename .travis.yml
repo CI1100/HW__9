@@ -10,6 +10,6 @@ before_install:
 
 
 script:
- - python3 HW_8.py --help
- - python3 HW_8.py wine.data
+ - python3 kmeans_iris.py --help
+ - python3 kmeans_iris.py iris.data
 
