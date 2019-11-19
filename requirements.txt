@@ -1,4 +1,3 @@
-mpl_toolkits.mplot3d
 matplotlib
 numpy
 sklearn.decomposition
